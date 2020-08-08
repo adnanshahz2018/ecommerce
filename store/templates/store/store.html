@@ -1,0 +1,61 @@
+
+{% extends 'store/main.html' %}
+{% load static %}
+{% block content %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
+
+<div class="row">
+    <div class="col-lg-4">
+        <img class="thumbnail" src="https://static-01.daraz.pk/p/33f7c1373ef499d6310a76e8adcc98bd.jpg" alt="placeholder">
+        <div class="box-element product">
+            <h6><strong>Product</strong></h6>
+            <hr>
+            <button class="btn-outline-secondary add-btn"> Add to Cart</button>
+            <a href="www.google.com" >
+                <button style="background-color: white; text-decoration: none; " 
+                    onmouseout="this.style.backgroundColor='white'" 
+                    onmouseover="this.style.backgroundColor='limegreen'"> 
+                        View 
+                </button> 
+            </a>
+            <h4 style="display: inline-block;float:right;"> $30 </h4>
+        </div>
+    </div>
+    <div class="col-lg-4">
+        <img class="thumbnail"  src="https://static-01.daraz.pk/p/mdc/68967cb658b58f4c517c9dd4f433134d.jpg" alt="placeholder">
+        <div class="box-element product">
+            <h6><strong>Product</strong></h6>
+            <hr>
+            <button class="btn-outline-secondary add-btn"> Add to Cart</button>
+            <a href="www.google.com" >
+                <button style="background-color:white; text-decoration: none; " 
+                    onmouseout="this.style.backgroundColor='white'" 
+                    onmouseover="this.style.backgroundColor='limegreen'"> 
+                        View 
+                </button> 
+            </a>
+            <h4 style="display: inline-block;float: right;"> $30 </h4>
+        </div>
+
+    </div>
+    <div class="col-lg-4">
+        <img class="thumbnail" src="https://static-01.daraz.pk/p/e180910b171d01853560a42caad7e0f9.jpg" alt="placeholder">
+        <div class="box-element product">
+            <h6><strong>Product</strong></h6>
+            <hr>
+            <button class="btn-outline-secondary add-btn"> Add to Cart</button>
+            <a href="www.google.com" >
+                <button style="background-color: white; text-decoration: none; " 
+                    onmouseout="this.style.backgroundColor='white'" 
+                    onmouseover="this.style.backgroundColor='limegreen'"> 
+                        View 
+                </button> 
+            </a>
+            <h4 style="display: inline-block;float: right;"> $30 </h4>
+        </div>
+
+    </div>
+</div>
+
+{% endblock content %}
